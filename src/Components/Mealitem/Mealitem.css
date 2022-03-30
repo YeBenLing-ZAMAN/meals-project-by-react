@@ -1,0 +1,16 @@
+.item-container{
+    width: 300px;
+    height: 500px;
+    border: 1px solid rgb(58, 57, 57);
+    border-radius: 8px;
+    padding-top: 10px;
+    margin: auto;
+}
+.item-container img{
+    width: 280px;
+    height: 280px;
+    border-radius: 8px;
+}
+.details-container{
+    padding: 10px;
+}
