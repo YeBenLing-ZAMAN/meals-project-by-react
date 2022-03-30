@@ -23,7 +23,9 @@ const Home = () => {
             <input onChange={searchFood} type="text" />
             <br />
             <div className='items-container'>
-               
+                {
+                    searchResult.map(item => <Mealitem key={item.idMeal} item={item}></Mealitem>)
+                }
             </div>
         </div>
     );
